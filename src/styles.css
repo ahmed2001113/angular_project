@@ -1,0 +1,9 @@
+.divimg{
+height: 250px;   
+    background-image: url(assets/img/not-found.jpg);
+background-size: cover;
+}
+.divimg img{
+width: 100%;
+height: 100%;
+}

@@ -1,0 +1,23 @@
+
+                        <div class="single-business-news" >
+                            <div class="row align-items-center" *ngFor="let n of newapi">
+                                <div class="col-lg-4">
+                                    <div class="business-news-image divimg" >
+                
+                                        <img  [src]="n.urlToImage"  alt="image" >
+                                            
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-8">
+                                    <div class="business-news-content-box">
+                                        <h6>{{n.title}}</h6>
+                                        <h5>
+                                            {{n.description}}
+                                        </h5>
+                                        <p>{{n.publishedAt}}</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
